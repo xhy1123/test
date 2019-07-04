@@ -42,6 +42,7 @@ void QSort(int *data,int low, int high)
 int main()
 {
 	int data[10] = { 11,2,1,3,5,6,7,8,9,10 };
+	int test = 10;
 	QSort(data,0,9);
 	for (int i = 0; i < 10; i++)
 	{
@@ -51,3 +52,5 @@ int main()
 	system("pause");
 	return 0;
 }
+
+//testbranch ÐÞ¸Äadd
